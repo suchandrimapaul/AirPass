@@ -1,0 +1,10 @@
+{
+  "name": "airpass-nearby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gesture-assisted nearby device discovery and consent-based WebRTC file handoff",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "compression": "^1.7.4", "dotenv": "^16.4.7", "express": "^4.21.2", "express-rate-limit": "^7.5.0", "helmet": "^8.0.0", "ws": "^8.18.0" }
+}
